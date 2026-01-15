@@ -11,7 +11,7 @@ The Dataset is published by **Stastics Canada**. The dataset originally containe
 
 # Introduction
 
-Aviation is an indrustry where safty and efficiciency comes first. By using predictive analytics air navigation service provider/airlines can identify potential measures that needed to be taken. In this project **Seasonal Autoregressive Integrated Moving Average (SARIMA)** model is used to train and forecast passengers using historical **(44 years)** data provided by stastics canada. 
+Aviation is an indrustry where safety and efficiciency comes first. By using predictive analytics air navigation service provider/airlines can identify potential measures that needed to be taken. In this project **Seasonal Autoregressive Integrated Moving Average (SARIMA)** model is used to train and forecast passengers using historical **(44 years)** data provided by stastics canada. 
 
 # Methodology
 
