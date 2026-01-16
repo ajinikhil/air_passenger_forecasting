@@ -15,6 +15,12 @@ Aviation is an indrustry where safty and efficiciency comes first. By using pred
 
 # Methodology
 
+## Data Preparation
+
+The data is cleaned to ensure that only necessary data are included for the analysis. Fronthe Operational and financial statistics column passenger values are selected and in the values section the passengers count are multiplied by 1000 since the scalar factor of passengers were in thousands. 
+
+
+
 # Analysis
 
 # Results
