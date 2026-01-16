@@ -17,11 +17,33 @@ Aviation is an indrustry where safety and efficiciency comes first. By using pre
 
 ## Data Preparation
 
-The data is cleaned to ensure that only necessary data are included for the analysis. Fronthe Operational and financial statistics column passenger values are selected and in the values section the passengers count are multiplied by 1000 since the scalar factor of passengers were in thousands. 
+The data is cleaned to ensure that only necessary data are included for the analysis. From the Operational and financial statistics column passenger values are selected, and in the values section the passengers count are multiplied by 1000 since the scalar factor of passengers were in thousands. 
 
+The reference date was transformed into pandas datetime format and the data was ordered chronologically. The dataset was indexed by date.
 
+After making sure all the changes made are applied properly all the columns except the reference date and passengers. 
 
 # Analysis
+
+## Trend
+Passenger data was plotted (Fig.1) to understand the dataset further and to visualize the trend. The figure illustrates a clear and strong upward trend. Passenger count gradually increased from arounf **2 million** in 1980 to around **8 million** by 2020.
+
+## Seasonality
+The series shows a clear seasonality trend. Passenger counts peaks during summer and drops during winter, which is a common trend in air traffic since most people usually go for vaccation dunig summer months. 
+
+## COVID-19
+From early 2020 the trend dopped sharply to ~0 during the golbal pandamic **COVID-19**.
+
+## Recovery
+
+From 2021 onward the graph shows a strong recovery with passenger volumes returning close to nearly pre-pandamic range. 
+
+![Passenger Trend](/plots/passenger_trend.png)
+<p align="center"> Fig.1 Passenger Trend </p>
+
+## Choosing the model
+
+From *Fig. 1* it is clear that the data exhibits strong seasonality, and the passenger volume shows a strong and gradual upward trend. The amplitude of the seasonal fluctations increases as the trend increases, which indicates that a **Multiplicative decomposition** is appropriate. 
 
 # Results
 
