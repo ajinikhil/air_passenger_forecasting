@@ -49,11 +49,18 @@ Seasonal decompose is used to further understand the data, it divides the series
 
 Fig. 2 illustrates all three components. Trend shows the overall growth in passenger volume over time after smoothing out the seasonality, the seasonality plot shows the repeating yearly pattern, and the residual plot shows what is left after removing the trend and seasonality
 
-
-
 ![Seasonal Decompose](/plots/seasonal_decompose.png)
 
 <p align="center"> Fig. 2 Seasonal decompose plot </p>
+
+## Augmented Dickey-fuller (ADF) test
+
+ADF test is used to check whether the time series is stationary or non-stationary.
+
+The test produced an ADF statistics of -1.63 and a p-value of 0.47. Since the p-value is greater than 0.05, it fail to reject the null hypothesis, which indicates the series is non-stationary.
+
+## Seasonal Differencing
+
 
 # Results
 
