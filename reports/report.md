@@ -21,7 +21,7 @@ The data is cleaned to ensure that only necessary data are included for the anal
 
 The reference date was transformed into pandas datetime format and the data was ordered chronologically. The dataset was indexed by date.
 
-After making sure all the changes made are applied properly all the columns except the reference date and passengers. 
+After making sure all the changes made are applied properly all the columns are dropped except the reference date and passengers column. 
 
 # Analysis
 
@@ -43,7 +43,17 @@ From 2021 onward the graph shows a strong recovery with passenger volumes return
 
 ## Choosing the model
 
-From *Fig. 1* it is clear that the data exhibits strong seasonality, and the passenger volume shows a strong and gradual upward trend. The amplitude of the seasonal fluctations increases as the trend increases, which indicates that a **Multiplicative decomposition** is appropriate. 
+From *Fig. 1* it is clear that the data exhibits strong seasonality, and the passenger volume shows a strong and gradual upward trend. The amplitude of the seasonal fluctuations increases as the trend increases, which indicates that a **Multiplicative decomposition** is appropriate. 
+
+Seasonal decompose is used to further understand the data, it divides the series into three components: **Trend**, **Seasonality**, and **Residual**. 
+
+Fig. 2 illustrates all three components. Trend shows the overall growth in passenger volume over time after smoothing out the seasonality, the seasonality plot shows the repeating yearly pattern, and the residual plot shows what is left after removing the trend and seasonality
+
+
+
+![Seasonal Decompose](/plots/seasonal_decompose.png)
+
+<p align="center"> Fig. 2 Seasonal decompose plot </p>
 
 # Results
 
