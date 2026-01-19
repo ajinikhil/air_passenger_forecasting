@@ -61,6 +61,15 @@ The test produced an ADF statistics of -1.63 and a p-value of 0.47. Since the p-
 
 ## Seasonal Differencing
 
+Seasonal differencing with a lag of **12** is used to remove the repeating annual pattern, helping to achieve **stationarity**. 
+
+After the differencing the ADF test produced a result, ADF statistics of -5.9 and a p-value  **<0.001**, which is much smaller than **0.05** (significance level), meaning the series is now **stationary**
+
+Since the differencing was done only one and was sufficient enough to remove the non-stationarity, **the value of the oreder if seasonal differencing(D) is 1** and since non-seasonal differencing is not applied: **d = 0**
+
+## Autocorrelation Function (ACF) and Partial Autocorrelation Function (PCF)
+
+
 
 # Results
 
