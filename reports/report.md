@@ -69,6 +69,10 @@ Since the differencing was done only one and was sufficient enough to remove the
 
 ## Autocorrelation Function (ACF) and Partial Autocorrelation Function (PCF)
 
+The PACF plot shows significant lags at lag 1 and 2 followed by a cuttoff which indicates p = ?. The ACF plot decays gradually which suggests the absence of moving average component.
+
+![ACF_PCF_plots](/plots/ACF_PCF_plot.png)
+
 
 
 # Results
