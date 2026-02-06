@@ -69,9 +69,25 @@ Since the differencing was done only one and was sufficient enough to remove the
 
 ## Autocorrelation Function (ACF) and Partial Autocorrelation Function (PCF)
 
-The PACF plot shows significant lags at lag 1 and 2 followed by a cuttoff which indicates p = ?. The ACF plot decays gradually which suggests the absence of moving average component.
+The ACf and PACF plots are used to identify appropriate SARIMA parameters
+
+The ACF plot shows a significant spike at lag 1 and decays gradually, which indicates a non-seasonal moving average component of order one `'q = 1'`. Since there was no significant spikes were observed at lag 12 which suggests that a seasonal moving average `(Q)` terms were not required `(Q=0)`.
+
+The PACF plot shows a stong spike at lag 1 with many lags falling inside the confdence interval, indicating an autoregressive component of order one `(p = 1)`. Since the series shows a strong annual seasonality and after checking the improvement in model statestics , a seasonal autoregressive term of order one (P=1) is selected. 
+
+To confirm P=1, models with and without seasonal autoregressive term (P=1 and P=0) were evaluvated. When P=0 is used the `Akaike information criterion (AIC) was 14316.188` and the `MAPE was ~4.6%`. When P=1 is used the `Akaike information criterion (AIC) was 14226.340` and the `MAPE was ~3.1%`.
+
+Based on the improved model fit and forecasting accuracy, `P = 1` is selected for the final SARIMA model.
 
 ![ACF_PCF_plots](/plots/ACF_PCF_plot.png)
+
+# Forecasing (using the test and train data)
+
+To validate the perfomance and accuracy of the model the data set is divided into two parts `test` and `train`. The last `24 months` of data were used as the test data and the rest were used to train the model. This allowed the model performance to be evaluvated over a two-year forecasting horizon. 
+
+Based on the results a `Seasonal AutoRegressive Integrated Moving Averaege (SARIMA)` model was fitted to the training data. The parametes were `Order  = (1, 0, 1), Seasonal_order = (1, 1, 0, 12)`. After fitting the model forecasts were generated for the next 24 months which corresponds to the test period. 95% confidence interval were also calculated to quantify the uncertainty associated with the forecasts, which provides upper and lower bounds around the predicted values. The forecasts returned a `Mean Absolute Percentage Error (MAPE) of approximatly 3.1`. Which means the forecasts are close to the actual value. In addition to MAPE, the `Root Mean Square Error (RMSE)` was calculated to measure the average magnitude of forecast errors in absolute terms. The model achieved an RMSE of approximately `319,817 passengers`.
+
+# Future Forecast
 
 
 
