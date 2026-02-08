@@ -89,6 +89,9 @@ Based on the results a `Seasonal AutoRegressive Integrated Moving Averaege (SARI
 
 # Future Forecast
 
+To predict the future passenger forecast the sected `SARIMA(1,0,1)(1,1,0,12)` model was fitted using the complete dataset. Produced forecasts were for a 24-month period (from October 2025 to October 2027) beyond the available data. Predicted mean represent the expected monthly passenger volumes. 
+
+The forecast indicate a continuation of the the historical upward trend in passenger volumes along with the seasonal fluctuations. 
 
 
 # Results
