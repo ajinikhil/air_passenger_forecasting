@@ -93,7 +93,30 @@ To predict the future passenger forecast the sected `SARIMA(1,0,1)(1,1,0,12)` mo
 
 The forecast indicate a continuation of the the historical upward trend in passenger volumes along with the seasonal fluctuations. 
 
-
 # Results
 
 # Conclusion
+
+# <u>References </u>
+
+* Government of Canada, S. C. (2023, February 23). Operating and financial statistics for major Canadian airlines, monthly. Www150.Statcan.gc.ca. https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=2310007901
+
+* GeeksforGeeks. (2025, June 17). Augmented DickeyFuller (ADF). GeeksforGeeks. https://www.geeksforgeeks.org/machine-learning/augmented-dickey-fuller-adf/
+
+* LEONIE. (2022). Time Series: Interpreting ACF and PACF. Kaggle.com. https://www.kaggle.com/code/iamleonie/time-series-interpreting-acf-and-pacf
+
+* gauravduttakiit. (2020, November 12). Forecasting with SARIMA Method. Kaggle.com; Kaggle. https://www.kaggle.com/code/gauravduttakiit/forecasting-with-sarima-method
+
+* Roberts, A. (2023, February 2). Mean Absolute Percentage Error (MAPE): What You Need To Know. Arize AI. https://arize.com/blog-course/mean-absolute-percentage-error-mape-what-you-need-to-know/
+
+* Olumide, S. (2023, August 8). Root Mean Square Error (RMSE): What You Need To Know. Arize AI. https://arize.com/blog-course/root-mean-square-error-rmse-what-you-need-to-know/
+
+* What is the difference between additive and multiplicative time series models? (2025). Milvus.io. https://milvus.io/ai-quick-reference/what-is-the-difference-between-additive-and-multiplicative-time-series-models
+
+* Lewinson, E. (2022, March 31). Time Series DIY: Seasonal Decomposition | Towards Data Science. Towards Data Science. https://towardsdatascience.com/time-series-diy-seasonal-decomposition-f0b469afed44/
+
+* GeeksforGeeks. (2025, June 17). Augmented DickeyFuller (ADF). GeeksforGeeks. https://www.geeksforgeeks.org/machine-learning/augmented-dickey-fuller-adf/
+
+* Monigatti, L. (2023, April 11). Stationarity in Time Series - A Comprehensive Guide | Towards Data Science. Towards Data Science. https://towardsdatascience.com/stationarity-in-time-series-a-comprehensive-guide-8beabe20d68/
+
+* GeeksforGeeks. (2023, November 17). SARIMA (Seasonal Autoregressive Integrated Moving Average). GeeksforGeeks. https://www.geeksforgeeks.org/machine-learning/sarima-seasonal-autoregressive-integrated-moving-average/
