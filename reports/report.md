@@ -79,7 +79,9 @@ To confirm P=1, models with and without seasonal autoregressive term (P=1 and P=
 
 Based on the improved model fit and forecasting accuracy, `P = 1` is selected for the final SARIMA model.
 
-![ACF_PCF_plots](/plots/ACF_PCF_plot.png)
+![ACF_PCF_plots](/plots/ACF_PCF_plot.png) 
+
+<p align="center"> fig.3 ACF and PACF plots </p>
 
 # Forecasing (using the test and train data)
 
@@ -87,13 +89,22 @@ To validate the perfomance and accuracy of the model the data set is divided int
 
 Based on the results a `Seasonal AutoRegressive Integrated Moving Averaege (SARIMA)` model was fitted to the training data. The parametes were `Order  = (1, 0, 1), Seasonal_order = (1, 1, 0, 12)`. After fitting the model forecasts were generated for the next 24 months which corresponds to the test period. 95% confidence interval were also calculated to quantify the uncertainty associated with the forecasts, which provides upper and lower bounds around the predicted values. The forecasts returned a `Mean Absolute Percentage Error (MAPE) of approximatly 3.1`. Which means the forecasts are close to the actual value. In addition to MAPE, the `Root Mean Square Error (RMSE)` was calculated to measure the average magnitude of forecast errors in absolute terms. The model achieved an RMSE of approximately `319,817 passengers`.
 
+![train_forecast](/plots/train_forecast.png)
+
+<p align="center"> fig.4 Forecasting using training and test data. </p>
+
 # Future Forecast
 
 To predict the future passenger forecast the sected `SARIMA(1,0,1)(1,1,0,12)` model was fitted using the complete dataset. Produced forecasts were for a 24-month period (from October 2025 to October 2027) beyond the available data. Predicted mean represent the expected monthly passenger volumes. 
 
 The forecast indicate a continuation of the the historical upward trend in passenger volumes along with the seasonal fluctuations. 
+![future_forecast](/plots/future_forecast_plot.png)
+
+<p align="center"> fig.5 Future Forecast. </p>
 
 # Results
+
+The SARIMA model demonstrated strong forecasting performance with an `MAPE of ~3-1%` and with an `RMSE of ~319817 passengers`. Visual comparison of the actual and predicted values shows that the model closely follows the observed trends and seasonal pattern. 
 
 # Conclusion
 
