@@ -9,7 +9,7 @@ ___
 > ### <u> Goal </u>
 > Forecast passenger data from 2025 November to 2027 october using the past 44 years of aviation passenger data from Statistics Canada.
 
-> Detailed report will be uploded soon
+> click [`here`](report/report.md) to see the report.
 
 > ### License
 > This project is licensed under [MIT License](LICENSE)
