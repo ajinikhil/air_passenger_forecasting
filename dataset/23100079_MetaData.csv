@@ -1,0 +1,54 @@
+﻿"Cube Title","Product Id","CANSIM Id",URL,"Cube Notes","Archive Status",Frequency,"Start Reference Period","End Reference Period","Total number of dimensions"
+"Operating and financial statistics for major Canadian airlines, monthly","23100079","401-0001","https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=2310007901",1;2;3;4;5;6;7,"CURRENT - a cube available to the public and that is current","Monthly","1981-01-01","2026-04-01","2",
+
+"Dimension ID","Dimension name","Dimension Notes","Dimension Definitions"
+"1","Geography",,""
+"2","Operational and financial statistics",,""
+
+"Dimension ID","Member Name","Classification Code","Member ID","Parent Member ID",Terminated,"Member Notes","Member Definitions"
+"1","Canada","[11124]","1","","",,
+"2","Passengers","","1","","",,
+"2","Passenger-kilometres","","2","","",,
+"2","Available seat-kilometres","","10","","",,
+"2","Load factor","","11","","",,
+"2","Kilograms of goods","","3","","t",,
+"2","Goods tonne-kilometres","","4","","t",,
+"2","Hours flown","","5","","",,
+"2","Turbo fuel consumed","","6","","",,
+"2","Total operating revenues","","7","","",,
+"2","Total operating expenses","","8","","t",,
+"2","Total interest expenses","","9","","t",,
+
+Symbol Legend
+Description,Symbol
+"not available for a specific reference period","..",
+"less than the limit of detection","<LOD",
+"value rounded to 0 (zero) where there is a meaningful distinction between true zero and the value that was rounded","0s",
+"data quality: excellent","A",
+"data quality: very good","B",
+"data quality: good","C",
+"data quality: acceptable","D",
+"use with caution","E",
+"too unreliable to be published","F",
+"not applicable","...",
+"preliminary","p",
+"revised","r",
+"suppressed to meet the confidentiality requirements of the Statistics Act","x",
+"terminated","t",
+
+"Survey Code","Survey Name"
+"5026","Monthly Civil Aviation Survey"
+
+"Subject Code","Subject Name"
+"23","Transportation"
+
+"Note ID",Note
+1,"As of January 2004, the major airlines include WestJet and Air Canada."
+2,"As of April 2014, Air Canada data include Air Canada rouge."
+3,"As of January 2015, the major airlines include all Canadian Level I air carriers, which are comprised of Air Canada (including Air Canada rouge), Air Transat, Jazz, Porter, Sunwing and WestJet."
+4,"As of July 2018, WestJet data include Swoop, WestJet Encore and WestJet Link."
+5,"From January 2020 until March 2021, inclusive, the major airlines also include Sky Regional Airlines."
+6,"As of January 2024, Level I air carriers include Air Canada (including Air Canada rouge), Air Transat, Flair, Jazz, Porter, Sunwing and WestJet (including WestJet Encore and WestJet Link)."
+7,"As of June 2025, Level I air carriers include Air Canada (including Air Canada rouge), Air Transat, Flair, Jazz, Porter and WestJet (including WestJet Encore). Sunwing Airlines was integrated into WestJet."
+
+"Correction ID","Correction Date","Correction Note"
