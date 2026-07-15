@@ -1,7 +1,8 @@
 # aviation_forecasting_canada
 
 ---
-> [!IMPORTANT] 
+> [!IMPORTANT]
+> I have started working on this project again to automate forecasting :)
 > This project is done using the data published by [`Stats Canada`](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=2310007901)
 
 ___
