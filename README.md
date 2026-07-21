@@ -2,7 +2,7 @@
 
 ---
 > [!IMPORTANT]
-> I have started working on this project again to automate forecasting :)
+> I have started working on this project again to automate forecasting :) \
 > This project is done using the data published by [`Stats Canada`](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=2310007901)
 
 ___
@@ -12,7 +12,15 @@ ___
 
 > click [`here`](report/report.md) to see the report.
 
+## Forecast
+
+![Forecast](plots/automated_forecast.png)
+
+Forecasted passenger data
+click [here](dataset/future_forecast.csv) to see the forecasted passenger data
+
 > ### License
 > This project is licensed under [MIT License](LICENSE)
+
 
 ---
