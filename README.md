@@ -16,7 +16,7 @@ ___
 
 ![Forecast](plots/automated_forecast.png)
 
-Forecasted passenger data
+## Forecasted passenger data
 click [here](dataset/future_forecast.csv) to see the forecasted passenger data
 
 > ### License
