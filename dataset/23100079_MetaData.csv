@@ -1,5 +1,5 @@
 ﻿"Cube Title","Product Id","CANSIM Id",URL,"Cube Notes","Archive Status",Frequency,"Start Reference Period","End Reference Period","Total number of dimensions"
-"Operating and financial statistics for major Canadian airlines, monthly","23100079","401-0001","https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=2310007901",1;2;3;4;5;6;7,"CURRENT - a cube available to the public and that is current","Monthly","1981-01-01","2026-04-01","2",
+"Operating and financial statistics for major Canadian airlines, monthly","23100079","401-0001","https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=2310007901",1;2;3;4;5;6;7,"CURRENT - a cube available to the public and that is current","Monthly","1981-01-01","2026-05-01","2",
 
 "Dimension ID","Dimension name","Dimension Notes","Dimension Definitions"
 "1","Geography",,""
